@@ -1,6 +1,8 @@
 import React from "react";
 import { screen, render } from "@testing-library/react";
 import { Actions } from "./actions";
+import { Provider } from "react-redux";
+import { phoneReducer } from "../../reducer/phone.reducer";
 
 describe("Given an Actions component", () => {
   describe("When it is rendered", () => {
