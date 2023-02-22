@@ -1,9 +1,6 @@
-import { useDispatch } from "react-redux";
 import { clickCreator } from "../../reducer/phone.actions.creator";
-import { AppDispatch } from "../../store/store";
 
 export function Keyboard() {
-  const dispatch = useDispatch<AppDispatch>();
   return (
     <div className="keyboard-container">
       <ol className="keyboard">
